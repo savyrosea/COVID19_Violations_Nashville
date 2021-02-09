@@ -7,7 +7,7 @@ In this project, you will explore COVID-19 violations reported to hubNashville, 
 ### Part 1:
 Gather the dataset of hubNashville requests from https://data.nashville.gov/Public-Services/hubNashville-311-Service-Requests/7qhx-rexh. For this project, you should look at requests with Request Type of "COVID-19" and Subrequest Type of "COVID-19 Violations". Explore this dataset, looking at when and where these violations occurred.
 
-<p float="center">
+<p float="left">
   <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/ClusterMap.PNG" width="300" />
   <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/zoomed.PNG" width="355" />
 </p>
@@ -15,8 +15,14 @@ Gather the dataset of hubNashville requests from https://data.nashville.gov/Publ
 
 ### Part 2:
 The file davidson_cases.csv contains the number of COVID cases in Davidson county per day from March 8 through October 29. Use this dataset to compare the trend for the number of cases over time to the number of reported violations. Feel free to add any additional data that you think might be useful.
-![](https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av1.png)
-![](https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av2.png)
+
+<p float="left">
+  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av1.png" width="350" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av2.png" width="350" />
+</p>
 
 ### Part 3:
 The Metro Public Health Department tracks COVID-19 clusters. The files `clusters.csv` and `clusters_by_type.csv` contain the tables of clusters as reported by [WSMV](https://www.wsmv.com/news/metro-health-releases-latest-covid-19-clusters/article_ef554e08-1558-11eb-b290-873345e174d7.html) along with the coordinates of the clusters. Can you find any connection between the reported COVID violations and subsequent COVID clusters?
