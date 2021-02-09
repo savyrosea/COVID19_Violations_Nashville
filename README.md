@@ -33,6 +33,13 @@ Exploring COVID-19 violations reported to hubNashville, Metro Nashville governme
 - The files `clusters.csv` and `clusters_by_type.csv` contain the tables of clusters as reported by [WSMV](https://www.wsmv.com/news/metro-health-releases-latest-covid-19-clusters/article_ef554e08-1558-11eb-b290-873345e174d7.html) along with the coordinates of the clusters
 - Examined connections between the reported COVID violations and subsequent COVID clusters
 
+<p float="left">
+  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/ClusterByNumRepViolations.PNG" width="550" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/NumByClusterLocation.PNG" width="550" />
+</p>
 
 ### Part 4:
 - The dataset from data.nashville.gov includes geospatial information, which allows you to see where violations occurred geographically, but it does not provide information in regard to the specific businesses that were reported. 
