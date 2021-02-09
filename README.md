@@ -7,7 +7,9 @@ Exploring COVID-19 violations reported to hubNashville, Metro Nashville governme
 ### Part 1:
 - Gathered data from hubNashville https://data.nashville.gov/Public-Services/hubNashville-311-Service-Requests/7qhx-rexh. 
 - Looked at requests with Request Type of "COVID-19" and Subrequest Type of "COVID-19 Violations"
-- Explored this dataset and looked at when and where these violations occurred using cluster maps
+- Explored this dataset and looked at when and where these violations occurred
+- Visualized Business Types by Google Place Tags
+- Used Geocodio to match as many locations as possible to US addresses
 
 <p float="left">
   <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/ClusterMap.PNG" width="380" />
