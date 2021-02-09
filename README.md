@@ -29,17 +29,24 @@ Exploring COVID-19 violations reported to hubNashville, Metro Nashville governme
 </p>
 
 ### Part 3:
-The Metro Public Health Department tracks COVID-19 clusters. The files `clusters.csv` and `clusters_by_type.csv` contain the tables of clusters as reported by [WSMV](https://www.wsmv.com/news/metro-health-releases-latest-covid-19-clusters/article_ef554e08-1558-11eb-b290-873345e174d7.html) along with the coordinates of the clusters. Can you find any connection between the reported COVID violations and subsequent COVID clusters?
-![](https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/heatmap.PNG)
+- The Metro Public Health Department tracks COVID-19 clusters
+- The files `clusters.csv` and `clusters_by_type.csv` contain the tables of clusters as reported by [WSMV](https://www.wsmv.com/news/metro-health-releases-latest-covid-19-clusters/article_ef554e08-1558-11eb-b290-873345e174d7.html) along with the coordinates of the clusters
+- Examined connections between the reported COVID violations and subsequent COVID clusters
+
 
 ### Part 4:
-The dataset from data.nashville.gov includes geospatial information, which allows you to see where violations occurred geographically, but it does not provide information in regard to the specific businesses that were reported. In this part, you should explore the  businesses and types of businesses that have been reported. To attempt to answer this, you have been provided data from the [Google Places API](https://developers.google.com/places/web-service/overview). Each file is formatted as a json. The values are as follows:
+- The dataset from data.nashville.gov includes geospatial information, which allows you to see where violations occurred geographically, but it does not provide information in regard to the specific businesses that were reported. 
+- Explored the businesses and types of businesses that have been reported using a heatmap
+
+![](https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/heatmap.PNG)
+
+- Took data from the [Google Places API](https://developers.google.com/places/web-service/overview). The values are as follows:
 * `mapped_location`: The mapped location from the hubNashville dataset
 * `address`: The address from the hubNashville dataset
 * `results`: The first five results from a Google Maps API nearbysearch, ranked by proximity to the Mapped Location. See https://developers.google.com/places/web-service/search#PlaceSearchResponses for more details on the fields in the results.
 
-Take these results and use them to match as many violations as possible to a business. **Warning:** it will not be possible to match all violations to a business, and there will be ambiguities when trying to do this match, so do not spend all of your time on this task.
-What do you find when you look into the types of businesses that have been reported for COVID violations?
+- Matched as many violations as possible to a business using FuzzyWuzzy
+- Looked into the types of businesses that have been reported for COVID violations and how behavior changed after an outbreak at a location
 
 ![](https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/Lines.PNG)
 
