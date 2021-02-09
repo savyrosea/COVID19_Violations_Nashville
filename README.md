@@ -9,7 +9,7 @@ Gather the dataset of hubNashville requests from https://data.nashville.gov/Publ
 
 <p float="left">
   <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/ClusterMap.PNG" width="300" />
-  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/zoomed.PNG" width="360" />
+  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/zoomed.PNG" width="355" />
 </p>
 
 
