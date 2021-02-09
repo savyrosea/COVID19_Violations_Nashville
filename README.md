@@ -2,10 +2,12 @@
 
 ## Data Question 4: Nashville COVID-19 Violations
 
-In this project, you will explore COVID-19 violations reported to hubNashville, Metro Nashville government's comprehensive customer service system. 
+Exploring COVID-19 violations reported to hubNashville, Metro Nashville government's comprehensive customer service system
 
 ### Part 1:
-Gather the dataset of hubNashville requests from https://data.nashville.gov/Public-Services/hubNashville-311-Service-Requests/7qhx-rexh. For this project, you should look at requests with Request Type of "COVID-19" and Subrequest Type of "COVID-19 Violations". Explore this dataset, looking at when and where these violations occurred.
+- Gathered data from hubNashville https://data.nashville.gov/Public-Services/hubNashville-311-Service-Requests/7qhx-rexh. 
+- Looked at requests with Request Type of "COVID-19" and Subrequest Type of "COVID-19 Violations"
+- Explored this dataset and looked at when and where these violations occurred using cluster maps
 
 <p float="left">
   <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/ClusterMap.PNG" width="380" />
@@ -14,7 +16,9 @@ Gather the dataset of hubNashville requests from https://data.nashville.gov/Publ
 
 
 ### Part 2:
-The file davidson_cases.csv contains the number of COVID cases in Davidson county per day from March 8 through October 29. Use this dataset to compare the trend for the number of cases over time to the number of reported violations. Feel free to add any additional data that you think might be useful.
+- The file davidson_cases.csv contains the number of COVID cases in Davidson county per day from March 8 through October 29
+- Used this dataset to compare the trend for the number of cases over time to the number of reported violations 
+- Plotted the rolling average of violations and Covid cases in Nashville per week to look for patterns
 
 <p float="left">
   <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av1.png" width="550" />
