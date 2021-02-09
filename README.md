@@ -17,11 +17,11 @@ Gather the dataset of hubNashville requests from https://data.nashville.gov/Publ
 The file davidson_cases.csv contains the number of COVID cases in Davidson county per day from March 8 through October 29. Use this dataset to compare the trend for the number of cases over time to the number of reported violations. Feel free to add any additional data that you think might be useful.
 
 <p float="left">
-  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av1.png" width="500" />
+  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av1.png" width="550" />
 </p>
 
 <p float="left">
-  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av2.png" width="500" />
+  <img src="https://github.com/savyrosea/COVID19_Violations_Nashville/blob/main/pictures/rolling_av2.png" width="550" />
 </p>
 
 ### Part 3:
