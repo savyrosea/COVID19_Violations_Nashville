@@ -1,6 +1,8 @@
 # COVID19_Violations_Nashville
 
 ## Data Question 4: Nashville COVID-19 Violations
+This project is a group project in collaboration with: https://github.com/jasonamyers and https://github.com/matttparker
+
 
 Exploring COVID-19 violations reported to hubNashville, Metro Nashville government's comprehensive customer service system
 
